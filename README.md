@@ -45,10 +45,10 @@ We wanted to create an application that gives users a realistic space experience
 
 ## Features
 
-1. **Shaders**: We implemented various shaders, including a metallic shader for planets and combustion VFX for the AstroJet.
+1. **Shaders**: We implemented various shaders, including the planet's color and metallic shader for the AstroJet.
 2. **Geometry**: The 3D models include planetary shapes, surfaces, and the AstroJet.
-3. **Lighting**: The sun serves as the primary source of lighting, using Unity's point light system.
-4. **Animations**: Features include planetary rotation animations and real-time updates to planet surfaces.
+3. **Lighting**: The sun serves as the primary source of lighting.
+4. **Animations**: Features include planetary rotation and revolution.
 5. **User Interface**: Users can inspect planets to display key details such as temperature, size, and other informative data.
 
 ---
