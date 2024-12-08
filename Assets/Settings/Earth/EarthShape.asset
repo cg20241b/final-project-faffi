@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba4bf5f749b8bcd4299b5aff5f4e7be0, type: 3}
-  m_Name: Shape
+  m_Name: EarthShape
   m_EditorClassIdentifier: 
-  planetRadius: 2.72
+  planetRadius: 1
   noiseLayers:
   - enabled: 1
     useFirstLayerAsMask: 0

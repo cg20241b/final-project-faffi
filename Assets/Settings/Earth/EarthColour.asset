@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 610db5731bb199b4b8872d0b8facd502, type: 3}
-  m_Name: Colour
+  m_Name: EarthColour
   m_EditorClassIdentifier: 
   planetMaterial: {fileID: 2100000, guid: b39fe9e214268d8479882002d5257e59, type: 2}
   biomeColourSettings:
@@ -97,6 +97,6 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_ColorSpace: 0
+    m_ColorSpace: -1
     m_NumColorKeys: 4
     m_NumAlphaKeys: 2
