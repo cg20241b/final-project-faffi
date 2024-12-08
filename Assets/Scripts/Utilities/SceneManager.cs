@@ -20,6 +20,6 @@ public class SceneManager : MonoBehaviour
         {
             uiClickSFX.Play();
         }
-        UnityEngine.SceneManagement.SceneManager.LoadScene("ClickTest");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SolarSystem");
     }
 }
