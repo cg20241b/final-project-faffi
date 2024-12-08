@@ -13,4 +13,46 @@ MonoBehaviour:
   m_Name: SaturnShape
   m_EditorClassIdentifier: 
   planetRadius: 58.232
-  noiseLayers: []
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.07
+        numLayers: 4
+        baseRoughness: 1.15
+        roughness: 2.2
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.98
+      ridgidNoiseSettings:
+        strength: 0
+        numLayers: 0
+        baseRoughness: 0
+        roughness: 0
+        persistence: 0
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        strength: 0.07
+        numLayers: 4
+        baseRoughness: 1.15
+        roughness: 2.2
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.98
+      ridgidNoiseSettings:
+        strength: 1.42
+        numLayers: 4
+        baseRoughness: 1.15
+        roughness: 3.3
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.37
+        weightMultiplier: 0.78
