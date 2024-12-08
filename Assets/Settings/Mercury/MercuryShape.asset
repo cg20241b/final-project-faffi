@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4bf5f749b8bcd4299b5aff5f4e7be0, type: 3}
   m_Name: MercuryShape
   m_EditorClassIdentifier: 
-  planetRadius: 1
+  planetRadius: 2.44
   noiseLayers: []

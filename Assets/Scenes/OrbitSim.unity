@@ -2026,6 +2026,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 502826792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &475299442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475299444}
+  - component: {fileID: 475299443}
+  m_Layer: 0
+  m_Name: SolarSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &475299443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475299442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f001129419a268429d0912f639c18e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &475299444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475299442}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &489083093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2121,6 +2165,7 @@ GameObject:
   - component: {fileID: 502826791}
   - component: {fileID: 502826793}
   - component: {fileID: 502826794}
+  - component: {fileID: 502826795}
   m_Layer: 0
   m_Name: Saturn
   m_TagString: Celestial
@@ -2163,9 +2208,9 @@ Transform:
   m_GameObject: {fileID: 502826790}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 14878, y: 0, z: 0}
+  m_LocalScale: {x: 58.232, y: 58.232, z: 58.232}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2132789867}
   - {fileID: 1591745784}
@@ -2209,6 +2254,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &502826795
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502826790}
+  serializedVersion: 4
+  m_Mass: 95.16
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &526475480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,6 +2381,7 @@ GameObject:
   - component: {fileID: 625681574}
   - component: {fileID: 625681581}
   - component: {fileID: 625681582}
+  - component: {fileID: 625681583}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Celestial
@@ -2495,8 +2568,8 @@ Transform:
   m_GameObject: {fileID: 625681573}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.5, y: 0, z: 4.16}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 696.34, y: 696.34, z: 696.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -2535,6 +2608,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &625681583
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625681573}
+  serializedVersion: 4
+  m_Mass: 333000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &644905713
 GameObject:
   m_ObjectHideFlags: 0
@@ -2630,6 +2730,7 @@ GameObject:
   - component: {fileID: 748177628}
   - component: {fileID: 748177630}
   - component: {fileID: 748177631}
+  - component: {fileID: 748177632}
   m_Layer: 0
   m_Name: Uranus
   m_TagString: Celestial
@@ -2672,9 +2773,9 @@ Transform:
   m_GameObject: {fileID: 748177627}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 29546, y: 0, z: 0}
+  m_LocalScale: {x: 25.362, y: 25.362, z: 25.362}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1993617696}
   - {fileID: 1210771219}
@@ -2718,6 +2819,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &748177632
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748177627}
+  serializedVersion: 4
+  m_Mass: 14.54
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &753912504
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +3433,7 @@ GameObject:
   - component: {fileID: 935509376}
   - component: {fileID: 935509378}
   - component: {fileID: 935509379}
+  - component: {fileID: 935509380}
   m_Layer: 0
   m_Name: Neptune
   m_TagString: Celestial
@@ -3347,9 +3476,9 @@ Transform:
   m_GameObject: {fileID: 935509375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 44755, y: 0, z: 0}
+  m_LocalScale: {x: 24.622, y: 24.622, z: 24.622}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 258762993}
   - {fileID: 2439072}
@@ -3393,6 +3522,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &935509380
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935509375}
+  serializedVersion: 4
+  m_Mass: 17.15
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &949818667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4893,6 +5049,7 @@ GameObject:
   - component: {fileID: 1321997564}
   - component: {fileID: 1321997566}
   - component: {fileID: 1321997567}
+  - component: {fileID: 1321997568}
   m_Layer: 0
   m_Name: Venus
   m_TagString: Celestial
@@ -4935,9 +5092,9 @@ Transform:
   m_GameObject: {fileID: 1321997563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 1076, y: 0, z: 0}
+  m_LocalScale: {x: 6.052, y: 6.052, z: 6.052}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1314122431}
   - {fileID: 1233638646}
@@ -4981,6 +5138,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &1321997568
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321997563}
+  serializedVersion: 4
+  m_Mass: 0.815
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1325130956
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5541,7 @@ GameObject:
   - component: {fileID: 1439391188}
   - component: {fileID: 1439391190}
   - component: {fileID: 1439391191}
+  - component: {fileID: 1439391192}
   m_Layer: 0
   m_Name: Jupiter
   m_TagString: Celestial
@@ -5399,9 +5584,9 @@ Transform:
   m_GameObject: {fileID: 1439391187}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 7559, y: 0, z: 0}
+  m_LocalScale: {x: 69.911, y: 69.911, z: 69.911}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 644905716}
   - {fileID: 141376169}
@@ -5445,6 +5630,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &1439391192
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439391187}
+  serializedVersion: 4
+  m_Mass: 317.8
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &1452653181
 Mesh:
   m_ObjectHideFlags: 0
@@ -6285,6 +6497,7 @@ GameObject:
   - component: {fileID: 1732480787}
   - component: {fileID: 1732480789}
   - component: {fileID: 1732480790}
+  - component: {fileID: 1732480791}
   m_Layer: 0
   m_Name: Mars
   m_TagString: Celestial
@@ -6327,9 +6540,9 @@ Transform:
   m_GameObject: {fileID: 1732480786}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 2488, y: 0, z: 0}
+  m_LocalScale: {x: 3.39, y: 3.39, z: 3.39}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1841124840}
   - {fileID: 2035191223}
@@ -6373,6 +6586,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &1732480791
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732480786}
+  serializedVersion: 4
+  m_Mass: 0.107
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!43 &1824517189
 Mesh:
   m_ObjectHideFlags: 0
@@ -6633,6 +6873,7 @@ GameObject:
   - component: {fileID: 1868203894}
   - component: {fileID: 1868203897}
   - component: {fileID: 1868203896}
+  - component: {fileID: 1868203898}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Celestial
@@ -6675,9 +6916,9 @@ Transform:
   m_GameObject: {fileID: 1868203893}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 1515, y: 0, z: 0}
+  m_LocalScale: {x: 6.371, y: 6.371, z: 6.371}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1136837474}
   - {fileID: 192206476}
@@ -6721,6 +6962,33 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1868203898
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868203893}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1906176748
 GameObject:
   m_ObjectHideFlags: 0
@@ -7196,6 +7464,7 @@ GameObject:
   - component: {fileID: 2031431342}
   - component: {fileID: 2031431344}
   - component: {fileID: 2031431345}
+  - component: {fileID: 2031431346}
   m_Layer: 0
   m_Name: Mercury
   m_TagString: Celestial
@@ -7238,9 +7507,9 @@ Transform:
   m_GameObject: {fileID: 2031431341}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 638, y: 0, z: 0}
+  m_LocalScale: {x: 2.44, y: 2.44, z: 2.44}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 280667795}
   - {fileID: 293893790}
@@ -7284,6 +7553,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSFX: {fileID: 949818669}
+--- !u!54 &2031431346
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031431341}
+  serializedVersion: 4
+  m_Mass: 0.055
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2035191220
 GameObject:
   m_ObjectHideFlags: 0
@@ -7800,3 +8096,4 @@ SceneRoots:
   - {fileID: 753912507}
   - {fileID: 1358925533}
   - {fileID: 312049927}
+  - {fileID: 475299444}
