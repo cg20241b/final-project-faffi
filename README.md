@@ -29,8 +29,8 @@ We wanted to create an application that gives users a realistic space experience
 ### Key Benefits
 
 1. **Interactive Content**: Explore planets up close, and learn through engaging, interactive experiences.
-2. **Space Vehicle Simulation**: Experience realistic space navigation by piloting an AstroJet.
-3. **Accessible to Everyone**: Designed for students and astronomy enthusiasts alike, providing an easy-to-use interface.
+2. **Accessible to Everyone**: Designed for students and astronomy enthusiasts alike, providing an easy-to-use interface.
+3. **Space Vehicle Simulation**: Experience realistic space navigation by piloting an AstroJet. _**(Optional)**_
 
 ---
 
