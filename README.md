@@ -109,13 +109,6 @@ Now that you're familiar with the controls, you're ready to navigate the solar s
 Happy exploring, AstroJet Pilot! 🚀✨
 
 ---
-Here's the updated **Credits** section using embedded YouTube links.
-
----
-
-When embedding YouTube videos in a `README.md` file, GitHub **does not support direct iframe embeds**. However, you can link to the videos using a clickable image preview. Here’s how you can achieve this using Markdown syntax:
-
----
 
 # 📚 **Credits**
 
