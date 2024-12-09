@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SolarSystem : MonoBehaviour
 {
-    readonly float G = 100f;
+    readonly float G = 7f;
     GameObject[] celestials;
 
     // Start is called before the first frame update

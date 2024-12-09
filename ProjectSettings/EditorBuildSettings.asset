@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 83d3a797d9741ec4792614e0ba94fe08
   - enabled: 1
     path: Assets/Scenes/SolarSystem.unity
-    guid: aacc5fb1ec4500b4d8a675def7082fcd
+    guid: e0a1a5a76f0a8ef40a6e641957823cda
   - enabled: 1
     path: Assets/Scenes/SunInspect.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
