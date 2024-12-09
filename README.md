@@ -59,6 +59,94 @@ We aim to further refine the simulation, adding more detailed planetary textures
 
 ---
 
+Here's a detailed **Control Tutorial** section to integrate into your **Planetarium Project** simulation game. This tutorial will ensure users understand how to pilot the AstroJet smoothly and navigate the solar system effectively.
+
+---
+
+## 🕹️ **Basic Controls**
+
+### 🔹 **Throttle and Movement**
+
+- **Throttle Up (Accelerate)**:  
+  Press **`Space`** to increase your speed and move forward.
+
+- **Throttle Down (Decelerate)**:  
+  Release **`Space`** to slow down or stop.
+
+### 🔹 **Directional Controls**
+
+- **Yaw (Turn Left/Right)**:  
+  - Press **`Q`** to turn the AstroJet **left**.  
+  - Press **`E`** to turn the AstroJet **right**.
+
+- **Pitch (Move Up/Down)**:  
+  - Press **`W`** to tilt the nose **up**.  
+  - Press **`S`** to tilt the nose **down**.
+
+- **Roll (Bank Left/Right)**:  
+  - Press **`A`** to bank the AstroJet **left**.  
+  - Press **`D`** to bank the AstroJet **right**.
+
+### 🔹 **Pausing the Simulation**
+
+- **Pause Menu**:  
+  Press **`Escape`** to pause the game and access the menu.
+
+---
+
+## 🛠️ **Tips for Smooth Navigation**
+
+1. **Combining Controls**: For realistic movement, combine yaw and pitch adjustments to perform smooth turns.
+2. **Stabilizing Your Flight**: Use roll controls (`A` and `D`) to balance your AstroJet after sharp turns.
+3. **Exploring Planets**: Throttle up using `Space` to approach planets, and throttle down to observe details up close.
+
+---
+
+## 🌌 **Ready to Explore?**
+
+Now that you're familiar with the controls, you're ready to navigate the solar system! Pilot your AstroJet, visit planets, and learn fascinating details about each celestial body.
+
+Happy exploring, AstroJet Pilot! 🚀✨
+
+---
+Here's the updated **Credits** section using embedded YouTube links.
+
+---
+
+When embedding YouTube videos in a `README.md` file, GitHub **does not support direct iframe embeds**. However, you can link to the videos using a clickable image preview. Here’s how you can achieve this using Markdown syntax:
+
+---
+
+# 📚 **Credits**
+
+### 🎵 **Music**
+
+Thank you to **FourFifteenTwenty** for the incredible music that enhances the immersive experience of the **Planetarium Project**.
+
+- **Main Menu Theme**  
+  [![Main Menu Theme](https://img.youtube.com/vi/3NP7kJepZiY/0.jpg)](https://www.youtube.com/watch?v=3NP7kJepZiY)
+
+- **Planet Roam Theme**  
+  [![Planet Roam Theme](https://img.youtube.com/vi/FTU65In-Pbo/0.jpg)](https://www.youtube.com/watch?v=FTU65In-Pbo)
+
+- **Planet Inspect Theme**  
+  [![Planet Inspect Theme](https://img.youtube.com/vi/4GisW3cehrM/0.jpg)](https://www.youtube.com/watch?v=4GisW3cehrM)
+
+All tracks are provided by **[FourFifteenTwenty](https://www.youtube.com/@fourfifteentwenty)**. Be sure to support their channel for more amazing music!
+
+---
+
+### 🛠️ **Development Tutorial**
+
+This project was made possible thanks to the **"Make a Space Shooter"** tutorial series by **Brackeys**.
+
+[![Brackeys Tutorial](https://img.youtube.com/vi/QN39W020LqU/0.jpg)](https://www.youtube.com/watch?v=QN39W020LqU&list=PLFt_AvWsXl0cONs3T0By4puYy6GM22ko8)
+
+This tutorial series provided valuable insights into Unity, 3D development, and game mechanics.
+
+---
+
+
 ## Thank You
 
 We hope you enjoy exploring our solar system through the Planetarium. Thank you for your interest and support!
